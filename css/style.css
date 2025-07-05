@@ -7,7 +7,7 @@
 body {
   height: 100dvh;
   width: 100%;
-  background: #121212;
+  background: green;
   color: #E0E0E0;
   font-family: Arial, sans-serif;
 }
@@ -39,10 +39,17 @@ nav ul li a {
 
 h1 {
   margin-bottom: 1rem;
+  font-size: 30px;
 }
 h2 {
   margin: 2rem 0;
+  font-size: 25px;
 }
+
+p {
+  font-size: 16px;
+}
+
 .lista-idioma {
   text-align: center;
 }
@@ -95,7 +102,7 @@ footer {
 
 
 /* mostra o aviso em telas maiores que 760px */
-@media (min-width: 770px) {
+@media (min-width: 800px) {
   .aviso-pc {
     display: block;
   }
