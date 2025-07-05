@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  width: 100%;
+  background: #121212;
+  color: #E0E0E0;
+  font-family: Arial, sans-serif;
+}
+/* estilização do cabeçalho */
+nav ul {
+  background-color: #1F1F1F;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  color: #90CAF9;
+  text-decoration: none;
+} 
+
+.selecionado { /* mostra qual link está selecionado no momento */
+  text-decoration: underline;
+}
+/* fim da estilização do cabeçalho */
+
+.centralizar {
+  margin-top: 40%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+h2 {
+  margin: 2rem 0;
+}
+.lista-idioma {
+  text-align: center;
+}
+
+.lista-sites a {
+  display: block;
+  color: #80CBC4;            
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.form-contato {
+  margin-top: 2rem;
+}
+
+/* estilo do botao do formulário */
+.form-contato button {
+  width: clamp(100px, 80%, 181px);
+  height: 1.5rem;
+  background-color: #80CBC4;
+  color: #121212;
+  border: none;
+}
+
+/* aviso escondido por padrao */
+.aviso-pc {
+  display: none;
+  background-color: #FFCDD2;
+  color: #B71C1C;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.aviso-pc img {
+  max-width: 90%;
+  margin-top: 2rem;
+}
+
+/* Estilo do rodape */
+footer {
+  background-color: #1F1F1F;    
+  color: #CCCCCC;               
+  text-align: center;           
+  padding: 20px 10px;           
+  margin-top: 40px;            
+  font-size: 14px;           
+  border-top: 1px solid #333;  
+}
+
+
+/* mostra o aviso em telas maiores que 760px */
+@media (min-width: 770px) {
+  .aviso-pc {
+    display: block;
+  }
+}
