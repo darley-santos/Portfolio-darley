@@ -68,18 +68,18 @@ p, label {
 
 .form-contato input {
   width: clamp(200px, 80%, 95%);
-  padding: 5px;
+  padding: 7px;
 }
 
 #mensagem {
   width: clamp(200px, 80%, 95%);
-  
+  padding: 5px;
 }
 
 /* estilo do botao do formulário */
 .form-contato button {
   width: clamp(100px, 80%, 250px);
-  height: 2rem;
+  padding: 8px;
   background-color: #80CBC4;
   color: #121212;
   border: none;
