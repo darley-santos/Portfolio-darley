@@ -12,6 +12,12 @@ body {
   font-family: Arial, sans-serif;
 }
 /* estilização do cabeçalho */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
 nav ul {
   background-color: #1F1F1F;
   list-style: none;
@@ -33,7 +39,7 @@ nav ul li a {
 /* fim da estilização do cabeçalho */
 
 .centralizar {
-  margin-top: 40%;
+  margin-top: 50%;
   text-align: center;
 }
 
