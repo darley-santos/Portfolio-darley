@@ -17,6 +17,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 5;
+  width: 100%;
 }
 nav ul {
   background-color: #1F1F1F;
@@ -103,6 +104,7 @@ p, label {
   text-align: center;
   padding: 15px;
   font-weight: bold;
+  margin-top: 4rem;
 }
 
 .aviso-pc img {
